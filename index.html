@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="dddApp">
+<head>
+<title>Dare Devil Ducks League</title>
+<meta name="description" content="iTunes Media">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/ui-grid-stable.css" rel="stylesheet">
+
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+<link href="http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700'|Damion|Pacifico|Lusitana|Balthazar|Josefin+Sans" type="text/css" rel="stylesheet" >
+<link href="css/itl.css" rel="stylesheet" />
+
+<!-- Vendor Libs -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.js"></script>
+<script src="//cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-resource.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-touch.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-animate.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-sanitize.js"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!-- <script src="script/parallax-js/parallax.js"></script> -->
+<script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+<script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+<script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
+<script src="http://ui-grid.info/release/ui-grid-unstable.js"></script>
+    
+<!-- UI Libs -->
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- <script src="script/typeahead.js"></script> -->
+
+<!-- App libs -->
+<script src="app/itlApp.js"></script>
+
+<!-- controllers  -->
+<script src="app/controllers/firstController.js"></script>
+<script src="app/controllers/parenthomeController.js"></script>
+<script src="app/controllers/lastController.js"></script>
+<!-- factories  -->
+<script src="app/factories/musicfactory.js"></script>
+
+<!-- services  -->
+<script src="app/services/msgservice.js"></script>
+<script src="app/services/chartservice.js"></script>
+<script src="app/services/selectlistservice.js"></script>
+
+<script src="app/directives/directives.js"></script>
+<script src="app/validations/validate.js"></script>
+
+<script src="script/itl.js"></script>
+
+</head>
+<body style="background:white;" data-ng-controller="itlParentController" >
+
+<nav style="display:block;" id="nav-bar-menu-bar-tall" role="navigation" class="customNavbar navbar navbar-default fixed">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div id="navBarHeader" class="navbar-header">
+          <button id="navBarButton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>  
+          
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+    		<ul style="padding-top:7px;" class="nav navbar-nav">
+                <li class="menuItems"><a class="collapsableNavbar" href="#/home">
+                <img style="vertical-align:middle;height:95px;padding-right:25px;" class="" src="img/ddd-Jess-small.png">
+                </a></li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="menuItems dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                    <img id="gamenavimg" name="navImage" class="img-responsive imgButtonNav" src="img/buttons/games.png">
+                    <b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="collapsableNavbar" href="#/pickgames">Pick Your Teams</a></li>
+                      <!--   <li id="admintestpickgames"><a href="#/pickgames2">Pick Your Teams 2</a></li> -->
+                        <li><a class="collapsableNavbar" href="#/viewselectpickgames">Player's picks for week</a></li>
+                        <li><a class="collapsableNavbar" href="#/viewtotalpickgames">Player Picks for week by Team</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="menuItems dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                    <img id="playernavimg" name="navImage" class="img-responsive imgButtonNav" src="img/buttons/memberstats.png">
+                    <b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="collapsableNavbar" href="#/playerstatstotalwins">Total Wins Leaders</a></li>
+                        <li><a class="collapsableNavbar" href="#/playerstatstotalpercentage">Total Percentage Leaders</a></li>
+                        <li><a class="collapsableNavbar" href="#/playerstatsmemberweekly">Weekly Totals Leaders</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="menuItems dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                    <img id="teamnavimg" name="navImage" class="img-responsive imgButtonNav" src="img/buttons/team.png">
+                    <b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="collapsableNavbar" href="#/teamstandings">Team Standings</a></li>
+                        <li><a class="collapsableNavbar" href="#/teamweeklyranking">Team Weekly Ranking</a></li>
+                        <li><a class="collapsableNavbar" href="#/teamstatscharts">Team Stats Charts</a></li>
+                        <li id="adminplayoffstandings"><a class="collapsableNavbar" href="#/playoffstandings">Team Playoff Brackets</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="http://www.nfl.com/scores" target="_blank">Current Scores</a></li>
+                        <li id="adminnflnews"><a class="collapsableNavbar" href="#/nflnews">NFL Headlines</a></li>
+                        <li><a class="collapsableNavbar" href="#/teamdiscovery">Team Discovery</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="menuItems"><a class="collapsableNavbar" href="#/halloffame">
+                <img id="halloffamenavimg" name="navImage" class="img-responsive imgButtonNav" src="img/buttons/halloffame.png">
+                </a></li>
+            </ul>
+
+            <ul id="adminselect" class="nav navbar-nav">
+                <li class="menuItems dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                    <img id="adminnavimg" name="navImage" class="img-responsive imgButtonNav" src="img/buttons/admin.png">
+                    <b class="caret"></b></a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="collapsableNavbar" href="#/teaminfo">Team Information</a></li>
+                        <li><a class="collapsableNavbar" href="#/teamseasoninfo">Team Season Information</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="#/gameinfo">Game Day Informtion</a></li>
+                        <li><a class="collapsableNavbar" href="#/gameranking">Game Week Ranking </a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="#/addmember">Player Add</a></li>
+                        <li><a class="collapsableNavbar" href="#/updatemember">Player Manage</a></li>
+                        <li><a class="collapsableNavbar" href="#/addavatar">Player Avatar</a></li>
+                        <li><a class="collapsableNavbar" href="#/sendplayeremail">Player(s) eMail</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="#/addmembergroup">Group Add</a></li>
+                        <li><a class="collapsableNavbar" href="#/updatemembergroup">Group Manage</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="#/weeklyscripts">System Scripts</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul  class="nav navbar-nav pull-right" >
+                <li style="text-align:center;padding-top:40px;padding-right:20px;">
+                    <div>
+                    <a id="menubaravatarimage" name="menubaravatarimage" class="collapsableNavbar" href="#/memberupdatemember">
+                    <img id="avatarnavimg" name="navAvatarImage" class="img-circle imgAvatarNav" ng-show="memberavatar != ''" ng-src="img/avatars/{{memberavatar}}">
+                    </a>
+                    <br />
+                    <span style="color:teal;" id="menubaravatar" name="menubaravatar"></span>
+                    </div>
+                </li>
+            </ul>
+        </div> <!-- end of navbar  -->
+    </div> <!-- end of container fluid -->            
+</nav>
+
+<nav style="display:none;"  id="nav-bar-menu-bar-short" role="navigation" class="navbar collapsableNavbarShortOverride fixed">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div id="navBarHeader" class="navbar-header">
+          <button id="navBarButton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>  
+          
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse collapsableNavbarShortOverride">
+            <ul class="nav navbar-nav collapsableNavbarShortOverride">
+                <li class="menuItems ">
+                    <a class="collapsableNavbar" href="#/home">
+                    <img style="vertical-align:middle;height:25px;display:inline;" class="" src="img/ddd-Jess-small.png"><span style="padding-left:5px;">Home</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="menuItems dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                        <img style="vertical-align:middle;height:25px;display:inline;" class="" src="img/buttons/games-mobile.png"><span style="padding-left:5px;">Games</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="collapsableNavbar" href="#/pickgames">Pick Your Teams</a></li>
+                      <!--   <li id="admintestpickgames"><a href="#/pickgames2">Pick Your Teams 2</a></li> -->
+                        <li><a class="collapsableNavbar" href="#/viewselectpickgames">Player's picks for week</a></li>
+                        <li><a class="collapsableNavbar" href="#/viewtotalpickgames">Player Picks for week by Team</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="menuItems dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                        <img style="vertical-align:middle;height:25px;display:inline;" class="" src="img/buttons/memberstats-mobile.png"><span style="padding-left:5px;">Player Stats</span>
+                   
+                        <b class="caret"></b>
+                    </a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="collapsableNavbar" href="#/playerstatstotalwins">Total Wins Leaders</a></li>
+                        <li><a class="collapsableNavbar" href="#/playerstatstotalpercentage">Total Percentage Leaders</a></li>
+                        <li><a class="collapsableNavbar" href="#/playerstatsmemberweekly">Weekly Totals Leaders</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="menuItems dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                        <img style="vertical-align:middle;height:25px;display:inline;" class="" src="img/buttons/team-mobile.png"><span style="padding-left:5px;">Teams
+                        <b class="caret"></b>
+                    </a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="collapsableNavbar" href="#/teamstandings">Team Standings</a></li>
+                        <li><a class="collapsableNavbar" href="#/teamweeklyranking">Team Weekly Ranking</a></li>
+                        <li><a class="collapsableNavbar" href="#/teamstatscharts">Team Stats Charts</a></li>
+                        <li id="adminplayoffstandings"><a class="collapsableNavbar" href="#/playoffstandings">Team Playoff Brackets</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="http://www.nfl.com/scores" target="_blank">Current Scores</a></li>
+                        <li id="adminnflnews"><a class="collapsableNavbar" href="#/nflnews">NFL Headlines</a></li>
+                        <li><a class="collapsableNavbar" href="#/teamdiscovery">Team Discovery</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="menuItems">
+                    <a class="collapsableNavbar " href="#/halloffame">
+                        <img style="vertical-align:middle;height:25px;display:inline;" class="" src="img/buttons/halloffame-mobile.png"><span style="padding-left:15px;">Hall of Fame</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul id="adminselect" class="nav navbar-nav">
+                <li class="menuItems dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                        <img style="vertical-align:middle;height:25px;display:inline;" class="" src="img/buttons/admin-mobile.png"><span style="padding-left:15px;">Administration</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul role="menu" class="dropdown-menu">
+                        <li><a class="collapsableNavbar" href="#/teaminfo">Team Information</a></li>
+                        <li><a class="collapsableNavbar" href="#/teamseasoninfo">Team Season Information</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="#/gameinfo">Game Day Informtion</a></li>
+                        <li><a class="collapsableNavbar" href="#/gameranking">Game Week Ranking </a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="#/addmember">Player Add</a></li>
+                        <li><a class="collapsableNavbar" href="#/updatemember">Player Manage</a></li>
+                        <li><a class="collapsableNavbar" href="#/addavatar">Player Avatar</a></li>
+                        <li><a class="collapsableNavbar" href="#/sendplayeremail">Player(s) eMail</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="#/addmembergroup">Group Add</a></li>
+                        <li><a class="collapsableNavbar" href="#/updatemembergroup">Group Manage</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a class="collapsableNavbar" href="#/weeklyscripts">System Scripts</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul  class="nav navbar-nav pull-right" >
+                <li style="text-align:center;padding-top:28px;padding-right:20px;">
+                    <div>
+                    <a id="menubaravatarimage" name="menubaravatarimage" style="color:crimson;text-decoration:none;font-weight:bold;" class="collapsableNavbar" href="#/memberupdatemember">
+                        {{memberscreenname}}
+                    </a>
+                    <br />
+                    <span id="menubaravatar" name="menubaravatar"></span>
+                    </div>
+                </li>
+            </ul>
+        </div> <!-- end of navbar  -->
+    </div> <!-- end of container fluid -->            
+</nav>
+
+<div id="ddd-view" style="padding-top:180px; background:white;" data-ng-view="" class="topPagePosition"></div>
+
+<div class="ddd-footer">
+	<div class="container-fluid" style="padding-top:15px;">
+        <div class="row">
+            <div style="padding-left:15px;" class="col-md-6">
+                <div class="row">
+                    <div  class="col-md-2">
+                        &nbsp;
+                    </div>
+
+                    <div class="cold-md-offset-1 col-md-9">
+                        &nbsp;
+                    </div>
+                </div> <!-- end of row -->
+            </div> <!-- end of col 5 -->
+        
+            <div class="col-md-5">
+                <div style="padding-top:15px;padding-bottom:10px;">
+                    <a href="#/faqs"><img style="height:30px;vertical-align:top" src="img/itlInfoButton.png" alt="information" class="img-circle"></a><span style="padding-left:15px;font-style:italic;font-weight:bold;font-size:22px;">Information</span>
+                </div>
+                <div>
+                    <span style="padding-right:5px">Contact:</span> <span class="helpInfo">Tarry Cutler</span>
+                </div>
+                <div>
+                   &nbsp;
+                </div>
+                <div style="padding-top:15px;">
+                    <span style="padding-right:5px">Device:</span> <span class="helpInfo">{{current.devicename}}</span>
+                </div> 
+                <div>
+                    <span style="padding-right:5px">Type:</span> <span class="helpInfo">{{current.devicetype}}</span>
+                </div>    
+                <div style="padding-top:25px;padding-bottom:10px;">
+                   &nbsp;
+                </div> <!-- end of col -->   
+            </div>
+
+            <div class="col-md-1">
+                &nbsp;
+            </div>
+        </div> <!-- end of row -->
+        
+        <div class="row">
+            <div class="col-md-1">
+                &nbsp;
+            </div>
+            <div class="col-md-3">
+                &nbsp;
+            </div>
+        </div> <!-- end of row -->
+	</div><!-- end of container top -->
+</div> <!-- end of footer -->
+
+<!-- dialogs -->
+<div class="modal fade" id="parentAlertModal" tabindex="-1" role="dialog" aria-labelledby="parentAlertModalTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="parentAlertModalTitle"></h4>
+      </div>
+      <div class="modal-body">
+        <p id="parentAlertModalBody"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  
+</body>
+</html>

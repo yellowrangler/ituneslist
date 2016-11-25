@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2016-11-21T15:18:39Z</date>
+	<key>Application Version</key><string>12.5.3.17</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file:///Volumes/Passport3T/iTunes%20Folder/</string>
+	<key>Library Persistent ID</key><string>46246D31326D2934</string>
+	<key>Tracks</key>
+	<dict>
+		<key>3313</key>
+		<dict>
+			<key>Track ID</key><integer>3313</integer>
+			<key>Name</key><string>Captain Horatio Hornblower</string>
+			<key>Artist</key><string>Raoul Walsh</string>
+			<key>Genre</key><string>Action &#38; Adventure</string>
+			<key>Kind</key><string>Protected MPEG-4 video file</string>
+			<key>Size</key><integer>1401585553</integer>
+			<key>Total Time</key><integer>7008592</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2011-05-13T10:01:00Z</date>
+			<key>Date Added</key><date>2011-08-06T22:36:39Z</date>
+			<key>Bit Rate</key><integer>95</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3536004332</integer>
+			<key>Play Date UTC</key><date>2016-01-19T04:25:32Z</date>
+			<key>Release Date</key><date>2009-01-01T08:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>536718D384021D63</string>
+			<key>Content Rating</key><string>mpaa|Unrated|600|</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>Has Video</key><true/>
+			<key>HD</key><false/>
+			<key>Video Width</key><integer>632</integer>
+			<key>Video Height</key><integer>480</integer>
+			<key>Movie</key><true/>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Movies/Captain%20Horatio%20Hornblower/Captain%20Horatio%20Hornblower.m4v</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3315</key>
+		<dict>
+			<key>Track ID</key><integer>3315</integer>
+			<key>Name</key><string>Captain Ron</string>
+			<key>Artist</key><string>Thom Eberhardt</string>
+			<key>Genre</key><string>Comedy</string>
+			<key>Kind</key><string>Protected MPEG-4 video file</string>
+			<key>Size</key><integer>1511164419</integer>
+			<key>Total Time</key><integer>6005023</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2011-05-13T09:55:29Z</date>
+			<key>Date Added</key><date>2011-08-06T22:36:54Z</date>
+			<key>Bit Rate</key><integer>99</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3510335830</integer>
+			<key>Play Date UTC</key><date>2015-03-28T01:17:10Z</date>
+			<key>Release Date</key><date>2010-06-24T07:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>204C7D1F09C810D8</string>
+			<key>Content Rating</key><string>mpaa|PG-13|300|For elements of sensuality and some language.</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>Has Video</key><true/>
+			<key>HD</key><false/>
+			<key>Video Width</key><integer>640</integer>
+			<key>Video Height</key><integer>478</integer>
+			<key>Movie</key><true/>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Movies/Captain%20Ron/Captain%20Ron.m4v</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3317</key>
+		<dict>
+			<key>Track ID</key><integer>3317</integer>
+			<key>Name</key><string>Chocolat</string>
+			<key>Artist</key><string>Harvey Weinstein</string>
+			<key>Genre</key><string>Drama</string>
+			<key>Kind</key><string>Protected MPEG-4 video file</string>
+			<key>Size</key><integer>4416270739</integer>
+			<key>Total Time</key><integer>7298757</integer>
+			<key>Year</key><integer>2011</integer>
+			<key>Date Modified</key><date>2011-05-08T12:27:50Z</date>
+			<key>Date Added</key><date>2011-08-06T22:37:11Z</date>
+			<key>Bit Rate</key><integer>153</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3480099473</integer>
+			<key>Play Date UTC</key><date>2014-04-12T02:17:53Z</date>
+			<key>Release Date</key><date>2011-04-15T07:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7FC446B03B4ACF10</string>
+			<key>Content Rating</key><string>mpaa|PG-13|300|For A scene of sensuality and some violence.</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>Has Video</key><true/>
+			<key>HD</key><true/>
+			<key>Video Width</key><integer>1280</integer>
+			<key>Video Height</key><integer>692</integer>
+			<key>Movie</key><true/>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Movies/Chocolat/Chocolat%20(HD).m4v</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3319</key>
+		<dict>
+			<key>Track ID</key><integer>3319</integer>
+			<key>Name</key><string>Little Bitty</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2559041</integer>
+			<key>Total Time</key><integer>159164</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:33Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:40Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3452864255</integer>
+			<key>Play Date UTC</key><date>2013-05-31T20:57:35Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2013-04-01T04:15:30Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>44AD24ABF592127B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/01%20Little%20Bitty.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3321</key>
+		<dict>
+			<key>Track ID</key><integer>3321</integer>
+			<key>Name</key><string>Everything I Love</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3016289</integer>
+			<key>Total Time</key><integer>187742</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:34Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:40Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>F2FBD3BDD8A70F6E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/02%20Everything%20I%20Love.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3323</key>
+		<dict>
+			<key>Track ID</key><integer>3323</integer>
+			<key>Name</key><string>Who's Cheatin' Who</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3900690</integer>
+			<key>Total Time</key><integer>243017</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:35Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:40Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FBD579760910F610</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/03%20Who's%20Cheatin'%20Who.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3325</key>
+		<dict>
+			<key>Track ID</key><integer>3325</integer>
+			<key>Name</key><string>There Goes</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3796618</integer>
+			<key>Total Time</key><integer>236512</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:36Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:40Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>89AC82A0F0FED601</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/04%20There%20Goes.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3327</key>
+		<dict>
+			<key>Track ID</key><integer>3327</integer>
+			<key>Name</key><string>I'll Go on Loving You</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3832145</integer>
+			<key>Total Time</key><integer>238733</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:36Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B15CA8BBE0345EE3</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/05%20I'll%20Go%20on%20Loving%20You.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3329</key>
+		<dict>
+			<key>Track ID</key><integer>3329</integer>
+			<key>Name</key><string>Right on the Money</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3704667</integer>
+			<key>Total Time</key><integer>230765</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:37Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>31F8AFDCFB232E78</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/06%20Right%20on%20the%20Money.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3331</key>
+		<dict>
+			<key>Track ID</key><integer>3331</integer>
+			<key>Name</key><string>Gone Crazy</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3651169</integer>
+			<key>Total Time</key><integer>227422</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:38Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:41Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E215839839CCD0DF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/07%20Gone%20Crazy.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3333</key>
+		<dict>
+			<key>Track ID</key><integer>3333</integer>
+			<key>Name</key><string>Little Man</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4316142</integer>
+			<key>Total Time</key><integer>268982</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:38Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:42Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3531124776</integer>
+			<key>Play Date UTC</key><date>2015-11-23T16:59:36Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2013-05-09T21:46:33Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>D03CD5C7AE16A869</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/08%20Little%20Man.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3335</key>
+		<dict>
+			<key>Track ID</key><integer>3335</integer>
+			<key>Name</key><string>Pop a Top</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2988285</integer>
+			<key>Total Time</key><integer>185991</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:38Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:42Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>66DD01765936EEBF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/09%20Pop%20a%20Top.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3337</key>
+		<dict>
+			<key>Track ID</key><integer>3337</integer>
+			<key>Name</key><string>The Blues Man</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6795476</integer>
+			<key>Total Time</key><integer>423941</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:41Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:42Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Name</key><string>Blues Man</string>
+			<key>Persistent ID</key><string>B5253B217C9D8CC8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/10%20The%20Blues%20Man.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3339</key>
+		<dict>
+			<key>Track ID</key><integer>3339</integer>
+			<key>Name</key><string>It Must Be Love</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2773872</integer>
+			<key>Total Time</key><integer>172591</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:40Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:42Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>46669733FAA98FA8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/11%20It%20Must%20Be%20Love.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3341</key>
+		<dict>
+			<key>Track ID</key><integer>3341</integer>
+			<key>Name</key><string>www.memory</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2498019</integer>
+			<key>Total Time</key><integer>155350</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:41Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:42Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A722B3128737C02E</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/12%20www.memory.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3343</key>
+		<dict>
+			<key>Track ID</key><integer>3343</integer>
+			<key>Name</key><string>When Somebody Loves You</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3349402</integer>
+			<key>Total Time</key><integer>208561</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:42Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:43Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>FFF424C7F7426092</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/13%20When%20Somebody%20Loves%20You.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3345</key>
+		<dict>
+			<key>Track ID</key><integer>3345</integer>
+			<key>Name</key><string>Where I Come From</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3861820</integer>
+			<key>Total Time</key><integer>240587</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:43Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:43Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9D5294A5A4752E72</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/14%20Where%20I%20Come%20From.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3347</key>
+		<dict>
+			<key>Track ID</key><integer>3347</integer>
+			<key>Name</key><string>Where Were You (When the World Stopped Turning)</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4900031</integer>
+			<key>Total Time</key><integer>305475</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:44Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:43Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>34D4160450114CEA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/15%20Where%20Were%20You%20(When%20the%20World%20Stopped%20Turning).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3349</key>
+		<dict>
+			<key>Track ID</key><integer>3349</integer>
+			<key>Name</key><string>Drive (For Daddy Gene)</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3899436</integer>
+			<key>Total Time</key><integer>242938</integer>
+			<key>Track Number</key><integer>16</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:44Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:44Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B8B7910DAC6F0209</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/16%20Drive%20(For%20Daddy%20Gene).mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3351</key>
+		<dict>
+			<key>Track ID</key><integer>3351</integer>
+			<key>Name</key><string>Remember When</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4342473</integer>
+			<key>Total Time</key><integer>270628</integer>
+			<key>Track Number</key><integer>18</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:46Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:44Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>78E037E73CE15C1C</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Greatest%20Hits,%20Vol.%202/18%20Remember%20When.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3353</key>
+		<dict>
+			<key>Track ID</key><integer>3353</integer>
+			<key>Name</key><string>Margaritaville</string>
+			<key>Artist</key><string>Alan Jackson</string>
+			<key>Album</key><string>Under the Influence</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4093787</integer>
+			<key>Total Time</key><integer>255085</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:48Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:44Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>C9F07D6E14A5A8AA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson/Under%20the%20Influence/12%20Margaritaville.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3355</key>
+		<dict>
+			<key>Track ID</key><integer>3355</integer>
+			<key>Name</key><string>It's Five O'Clock Somewhere</string>
+			<key>Artist</key><string>Alan Jackson / Jimmy Buffett</string>
+			<key>Album</key><string>Greatest Hits, Vol. 2</string>
+			<key>Genre</key><string>Country</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3725565</integer>
+			<key>Total Time</key><integer>232071</integer>
+			<key>Track Number</key><integer>17</integer>
+			<key>Date Modified</key><date>2006-02-19T21:37:46Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:44Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>DC8DF32B0F223126</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Alan%20Jackson%20_%20Jimmy%20Buffett/Greatest%20Hits,%20Vol.%202/17%20It's%20Five%20O'Clock%20Somewhere.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3357</key>
+		<dict>
+			<key>Track ID</key><integer>3357</integer>
+			<key>Name</key><string>Born Under A Bad Sign</string>
+			<key>Artist</key><string>Albert King</string>
+			<key>Composer</key><string>Booker T. Jones/Bell</string>
+			<key>Album</key><string>Born Under A Bad Sign</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>2753741</integer>
+			<key>Total Time</key><integer>167893</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1967</integer>
+			<key>Date Modified</key><date>2010-10-10T22:21:19Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:45Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2815</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7B5DF8928300E5A9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Albert%20King/Born%20Under%20A%20Bad%20Sign/01%20Born%20Under%20A%20Bad%20Sign.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3359</key>
+		<dict>
+			<key>Track ID</key><integer>3359</integer>
+			<key>Name</key><string>Crosscut Saw</string>
+			<key>Artist</key><string>Albert King</string>
+			<key>Composer</key><string>Ford</string>
+			<key>Album</key><string>Born Under A Bad Sign</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>2524483</integer>
+			<key>Total Time</key><integer>155640</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1967</integer>
+			<key>Date Modified</key><date>2007-04-15T18:08:44Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:45Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2172</integer>
+			<key>Persistent ID</key><string>88CCDA1E61389D06</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Albert%20King/Born%20Under%20A%20Bad%20Sign/02%20Crosscut%20Saw.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3361</key>
+		<dict>
+			<key>Track ID</key><integer>3361</integer>
+			<key>Name</key><string>Kansas City</string>
+			<key>Artist</key><string>Albert King</string>
+			<key>Composer</key><string>Stoller/Leiber</string>
+			<key>Album</key><string>Born Under A Bad Sign</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>2486430</integer>
+			<key>Total Time</key><integer>153200</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1967</integer>
+			<key>Date Modified</key><date>2007-04-15T18:08:53Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:45Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>2237</integer>
+			<key>Persistent ID</key><string>AEE0517B3CC17AEF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Albert%20King/Born%20Under%20A%20Bad%20Sign/03%20Kansas%20City.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3363</key>
+		<dict>
+			<key>Track ID</key><integer>3363</integer>
+			<key>Name</key><string>Oh, Pretty Woman</string>
+			<key>Artist</key><string>Albert King</string>
+			<key>Composer</key><string>Williams</string>
+			<key>Album</key><string>Born Under A Bad Sign</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>2733576</integer>
+			<key>Total Time</key><integer>168866</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1967</integer>
+			<key>Date Modified</key><date>2007-04-15T18:09:03Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:45Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>3458</integer>
+			<key>Persistent ID</key><string>E389EC6956B33CC0</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Albert%20King/Born%20Under%20A%20Bad%20Sign/04%20Oh,%20Pretty%20Woman.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3365</key>
+		<dict>
+			<key>Track ID</key><integer>3365</integer>
+			<key>Name</key><string>Down Don't Bother Me</string>
+			<key>Artist</key><string>Albert King</string>
+			<key>Composer</key><string>Albert King</string>
+			<key>Album</key><string>Born Under A Bad Sign</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>2121267</integer>
+			<key>Total Time</key><integer>130693</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1967</integer>
+			<key>Date Modified</key><date>2007-04-15T18:09:11Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:46Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1663</integer>
+			<key>Persistent ID</key><string>378FB07F40A7812A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Albert%20King/Born%20Under%20A%20Bad%20Sign/05%20Down%20Don't%20Bother%20Me.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3367</key>
+		<dict>
+			<key>Track ID</key><integer>3367</integer>
+			<key>Name</key><string>The Hunter</string>
+			<key>Artist</key><string>Albert King</string>
+			<key>Composer</key><string>Al Jackson Jr./Booker T. Jones/Wells/Steve Cropper/Donald "Duck" Dunn</string>
+			<key>Album</key><string>Born Under A Bad Sign</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>2689126</integer>
+			<key>Total Time</key><integer>165706</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1967</integer>
+			<key>Date Modified</key><date>2007-04-15T18:09:21Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:46Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>3136</integer>
+			<key>Sort Name</key><string>Hunter</string>
+			<key>Persistent ID</key><string>CAA41F30F236248D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Albert%20King/Born%20Under%20A%20Bad%20Sign/06%20The%20Hunter.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3369</key>
+		<dict>
+			<key>Track ID</key><integer>3369</integer>
+			<key>Name</key><string>I Almost Lost My Mind</string>
+			<key>Artist</key><string>Albert King</string>
+			<key>Composer</key><string>Hunter</string>
+			<key>Album</key><string>Born Under A Bad Sign</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>3417548</integer>
+			<key>Total Time</key><integer>210760</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1967</integer>
+			<key>Date Modified</key><date>2007-04-15T18:09:33Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:46Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Normalization</key><integer>1256</integer>
+			<key>Persistent ID</key><string>D9EEBE798EF78AAC</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Albert%20King/Born%20Under%20A%20Bad%20Sign/07%20I%20Almost%20Lost%20My%20Mind.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>3371</key>
+		<dict>
+			<key>Track ID</key><integer>3371</integer>
+			<key>Name</key><string>Personal Manager</string>
+			<key>Artist</key><string>Albert King</string>
+			<key>Composer</key><string>Porter/Albert King</string>
+			<key>Album</key><string>Born Under A Bad Sign</string>
+			<key>Genre</key><string>Blues</string>
+			<key>Kind</key><string>AAC audio file</string>
+			<key>Size</key><integer>4399783</integer>
+			<key>Total Time</key><integer>271306</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1967</integer>
+			<key>Date Modified</key><date>2007-04-15T18:09:49Z</date>
+			<key>Date Added</key><date>2011-08-07T13:15:46Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3544850435</integer>
+			<key>Play Date UTC</key><date>2016-04-30T12:40:35Z</date>
+			<key>Normalization</key><integer>2324</integer>
+			<key>Persistent ID</key><string>2F5B5876CF98DBB8</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Volumes/Passport3T/iTunes%20Folder/Music/Albert%20King/Born%20Under%20A%20Bad%20Sign/08%20Personal%20Manager.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+</dict>
+</plist>
