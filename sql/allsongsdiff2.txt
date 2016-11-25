@@ -1,0 +1,66 @@
+artist	album	song
+Bryan Adams	 	I Will Always Return
+Carrie Underwood	 	Don't Forget To Remember Me 
+Celine Dion	 	These are the special times
+Faith Hill	 	You Can't Lose Me 
+The Fox And The Hound	 	The Best of Friends
+Taylor Swift	 	The Best Day
+Taylor Swift	 	Never Grow Up
+ 	 	Crickets
+TJ Selection	 	Track 01
+TJ Selection	 	Track 02
+TJ Selection	 	Track 19
+TJ Selection	 	Track 03
+TJ Selection	 	Track 20
+TJ Selection	 	Track 04
+TJ Selection	 	Track 21
+TJ Selection	 	Track 05
+TJ Selection	 	Track 22
+TJ Selection	 	Track 06
+TJ Selection	 	Track 25
+TJ Selection	 	Track 07
+TJ Selection	 	Track 24
+TJ Selection	 	Track 08
+TJ Selection	 	Track 26
+TJ Selection	 	Track 09
+TJ Selection	 	Track 27
+TJ Selection	 	Track 10
+TJ Selection	 	Track 28
+TJ Selection	 	Track 11
+TJ Selection	 	Track 29
+TJ Selection	 	Track 12
+TJ Selection	 	Track 30
+TJ Selection	 	Track 13
+TJ Selection	 	Track 31
+TJ Selection	 	Track 14
+TJ Selection	 	Track 32
+TJ Selection	 	Track 15
+Garrison Keillor	A Prairie Home Companion 20th Anniversary Collection	You Drive Me Crazy
+Aqua	Aqua: Greatest Hits	Barbie Girl
+<unknown>	Download	Bon Jovi W_ Sugarland Who Says You Cant Go Home W_Lyrics HQ
+<unknown>	Download	Green Day Time of Your Life(Good Riddance) Lyrics
+<unknown>	Download	The House That Built Me- Miranda Lambert lyrics
+<unknown>	Download	I hope you dance lyrics- LeeAnn Womack
+<unknown>	Download	A Mother's Prayer, celine dion
+<unknown>	Download	Toy Story - You've got a friend in me - Randy Newman - Lyrics
+<unknown>	Download	Vitamin C - Friends Forever (Graduation Song)
+<unknown>	Download	Whitney Houston, In Memoriam  - You Were Loved (lyrics)
+Neil Young & Crazy Horse	Greatest Hits	Down By The River
+Neil Young & Crazy Horse	Greatest Hits	Cowgirl In The Sand
+Neil Young & Crazy Horse	Greatest Hits	Cinnamon Girl
+Neil Young	Greatest Hits	After The Goldrush
+Neil Young	Greatest Hits	Only Love Can Break Your Heart
+Neil Young	Greatest Hits	Southern Man
+Neil Young	Greatest Hits	The Needle & The Damage Done
+Neil Young With The Stray Gators	Greatest Hits	Old Man
+Neil Young With The Stray Gators	Greatest Hits	Heart Of Gold
+Neil Young & Crazy Horse	Greatest Hits	Like A Hurricane
+Neil Young	Greatest Hits	Comes A Time
+Neil Young & Crazy Horse	Greatest Hits	Hey Hey My My (Into the Black) [Live]
+Pearl Jam & Neil Young	Greatest Hits	Rockin' In The Free World
+Neil Young	Greatest Hits	Harvest Moon
+Phil Collins	Hits	Against All Odds (Take A Look At Me Now)
+Zac Brown Band	JEKYLL + HYDE	Iâ€™ll Be Your Man (Song For a Daughter)
+GÃ¼nther & The Sunshine Girls	Pleasure Man	Ding Dong Song (Radio Edit)
+Nat King Cole	The Christmas Song	Deck The Hall
+Tarry's iPhone	Voice Memos	6/17/13

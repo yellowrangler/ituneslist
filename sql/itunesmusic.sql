@@ -25,3 +25,16 @@ CREATE TABLE musictbl (
   importdate datetime,
   PRIMARY KEY (id)
 ); 
+
+http://manchester/ituneslist/app/ajax/getitunescsv.php?location=Orleans&filename=TarryMusicSongs11252016.csv&truncate=yes
+http://manchester/ituneslist/app/ajax/getitunescsv.php?location=Camden&filename=TammyMusicSongs11252016.csv
+
+SELECT * 
+FROM musictbl 
+WHERE location = "Camden" 
+AND song NOT in (
+    SELECT song 
+    FROM musictbl 
+    WHERE location = "Orleans"
+)
+ORDER BY album, track ASC

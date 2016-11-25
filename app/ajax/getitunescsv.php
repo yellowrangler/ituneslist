@@ -11,23 +11,21 @@ include_once ('../class/class.AccessLog.php');
 // mysql_real_escape_string
 // Name,Total Time,Artist,Album,Track Number,Track Count,Year,Genre
 $msgtext = "";
-$musicfieldnbr = 10;
+$musicfieldnbr = 9;
 $importfiledirectory = "../../data/";
 $importfile = "iTunesMusic.csv";
 $truncate = false; 
 
-$idIdx = 0;
-$songIdx = 1;
-$totaltimeIdx = 2;
-$artistIdx = 3;
-$albumIdx = 4;
-$trackIdx = 5;
-$tracksIdx = 6;
-$yearIdx = 7;
-$genreIdx = 8;
-$filelocationIdx = 9;
+$songIdx = 0;
+$totaltimeIdx = 1;
+$artistIdx = 2;
+$albumIdx = 3;
+$trackIdx = 4;
+$tracksIdx = 5;
+$yearIdx = 6;
+$genreIdx = 7;
+$filelocationIdx = 8;
 
-$id = 0;
 $song = " ";
 $totaltime = " ";
 $artist = " ";
@@ -73,22 +71,25 @@ else
     }   
 }
 
+$truncateMsg = "No";
 if( isset($_POST['truncate']) )
 {
     $truncate = true; 
+    $truncateMsg = "Yes";
 }
 else
 {
     if( isset($_GET['truncate']) )
     {
         $truncate = true; 
+        $truncateMsg = "Yes";
     }   
 }
 
 //
 // show file name passed in
 //
-$msgtext = "<br /><br />Input Parameters: Location: $location Truncate: $truncate";
+$msgtext = "<br /><br />Input Parameters: Location: $location Truncate: $truncateMsg importfile: $importfile";
 $msgtext;
 
 // print_r($_POST);
@@ -205,7 +206,6 @@ while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
     //
     // build column variables from row
     //
-    $id = mysql_real_escape_string(empty($data[$idIdx]) ? 0 : $data[$idIdx]);
     $song = mysql_real_escape_string(empty($data[$songIdx]) ? " " : $data[$songIdx]);
     $totaltime = empty($data[$totaltimeIdx]) ? ' ' : $data[$totaltimeIdx];
     $artist = mysql_real_escape_string(empty($data[$artistIdx]) ? ' ' : $data[$artistIdx]);
@@ -220,8 +220,8 @@ while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
     // do insert
     // 
     $sql = "INSERT INTO musictbl 
-        (id, artist, album, song, track, tracks, totaltime, genre, filelocation, location, importdate) 
-        VALUES ($id, '$artist', '$album', '$song', $track, $tracks, '$totaltime', '$genre', '$filelocation', '$location', '$enterdateTS')";
+        (artist, album, song, track, tracks, totaltime, genre, filelocation, location, importdate) 
+        VALUES ('$artist', '$album', '$song', $track, $tracks, '$totaltime', '$genre', '$filelocation', '$location', '$enterdateTS')";
         
     // debug
     // $msg = $msg .  "sql insert:$sql<br/>";
